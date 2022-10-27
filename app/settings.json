@@ -1,0 +1,20 @@
+{
+  "dev":{
+    "on":true,
+    "page":"main.html"
+  },
+  "auth":"123",
+  "apicon":"http://localhost:8080/api/",
+  "users":{
+    "VOGCH":{"group":"DEV"},
+    "MURRY":{"group":"DEV"},
+    "STRSA":{"group":"DIS"},
+    "DOUKR":{"group":"DIS"},
+    "DUSHE":{"group":"DIS"},
+    "SCOMI":{"group":"DIS"}
+  },
+  "groups":{
+    "DEV":{"main":"main.html"},
+    "DIS":{"main":"main.html"}
+  }
+}

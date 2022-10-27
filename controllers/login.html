@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>USER LOGIN</title>
+        <!--VG HEADER PARTIAL-->
+        <script>
+            require('../bin/repo/gui/js/tools/vg-partials.js').writePart(__dirname + '/parts/vg-heads.txt',
+                                                              document.head);
+        </script>
+
+        <link rel="stylesheet" href="../bin/gui/styles/vg-styles-login.css"/>
+    </head>
+    <body>
+
+        <!--VG NOTELIST / TR NOTES PARTIAL-->
+        <script>
+            require('../bin/repo/gui/js/tools/vg-partials.js').writePart(__dirname + '/parts/vg-notelist.txt',
+                                                              document.body, 'vg-toast-tr', true);
+        </script>
+
+        <div id="vg-note-center-box">
+            <div id="vg-center-info-login">
+                <label>User</label><input id="login-username"/>
+                <label>Password</label><input id="login-password" type="password"/>
+                <div id="login-submit" class="flat-action-button">SUBMIT</div>
+            </div>
+        </div>
+    </body>
+    <script src='../bin/gui/login.js'></script>
+</html>

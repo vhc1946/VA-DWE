@@ -1,0 +1,14 @@
+
+/* Login Page */
+#vg-center-info-login{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 5px;
+  row-gap: 5px;
+  padding: 5px;
+  align-items: center;
+}
+#login-submit{
+  grid-column: 1 / 3;
+  justify-self: end;
+}

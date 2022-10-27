@@ -1,0 +1,9 @@
+
+<script> window.$ = window.jQuery = require("jquery");</script>
+
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oswald"/>
+<link rel="stylesheet" href="../bin/repo/gui/styles/vg-general.css"/>
+<link rel="stylesheet" href="../bin/repo/gui/styles/vg-utility.css"/>
+<link rel="stylesheet" href="../bin/repo/gui/styles/modules/vg-notifiers.css"/>
+
+<link rel="stylesheet" href="../bin/gui/styles/vg-styles-navbar.css"/>

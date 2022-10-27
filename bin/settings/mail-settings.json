@@ -1,0 +1,33 @@
+{
+  "auth":{
+    "user":"iamsupport@vogelheating.com",
+    "pass":"Vogel1234"
+  },
+  "emailgroups":{
+    "general":{
+      "groups":["Flat Rate","Clean/Check","Warranty","Return Trip","T&M","Premium RM","Ultimate RM","Classic RM","Other","Comm Maint","1st Year/PV"],
+      "temp":"ser-std-visit.html",
+      "html":""
+    },
+    "duct":{
+      "groups":["Duct Clean"],
+      "temp":"ser-duct-visit.html",
+      "html":""
+    },
+    "install":{
+      "groups":["Install"],
+      "temp":"ser-install-visit.html",
+      "html":""
+    }
+  },
+  "reps":{
+    "VOGJA":"jamesv@vogelheating.com",
+    "LAUTI":"timothyl@vogelheating.com",
+    "HOFMI":"michelleh@vogelheating.com",
+    "VANJE":"jeffv@vogelheating.com",
+    "WARKE":"kenw@vogelheating.com",
+    "VOGGR":"grantv@vogelheating.com",
+    "FISER":"erikf@vogelheating.com",
+    "RODVA":"vanessar@vogelheating.com"
+  }
+}

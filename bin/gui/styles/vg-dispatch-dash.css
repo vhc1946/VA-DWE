@@ -1,0 +1,11 @@
+#email-dist-cont{
+    padding: 15px;
+}
+
+#email-dist-buttons{
+    display: flex;
+}
+
+#runningScreen{
+    color: var(--vogel-red);
+}

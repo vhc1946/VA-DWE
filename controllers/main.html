@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="../bin/gui/styles/vg-dispatch-dash.css"/>
+    </head>
+    <body>
+      <div id="email-dist-cont">
+        <div id='email-dist-buttons'>
+          <div id="runDailyWOEmails" class="flat-action-button">SEND WO EMAILS</div>
+          <div id="confirmDailyWOEmails" class="flat-action-button" style="display:none">CONFIRM RUN</div>
+        </div>
+        <div id="runningScreen" style="display:none">
+          RUNNING
+        </div>
+      </div>
+    </body>
+    <script>
+      require('../bin/repo/gui/js/tools/vg-partials.js').writePart(__dirname + '/parts/vg-notelist.txt',document.body, 'vg-toast-tr', true);
+      require('../bin/repo/gui/js/tools/vg-partials.js').writePart(__dirname + '/parts/vg-heads.txt',document.head);
+    </script>
+    <script src='../bin/gui/main.js'></script>
+</html>

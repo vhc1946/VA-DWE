@@ -1,0 +1,15 @@
+<div id="navbar-user-cont">
+    <div id="user-apps-cont" style="display:none">
+        <div class="flat-action-button cons" id="goto-BEE">BEE QUOTE</div>
+        <div class="flat-action-button cons man" id="open-trackers">TRACKERS</div>
+    </div>
+    <img id="user-apps-button" src="../bin/assets/grid-dot-big.png">
+    <div class="flat-action-button" id="goto-login">LOG-OUT</div>
+    <div id="user-info">User Name</div>
+</div>
+<div id="navbar-page-title">DASHBOARD</div>
+<div id="navbar-page-buttons">
+    <div class="flat-action-button cons man" id="goto-VHC">QUOTES</div>
+    <div class="flat-action-button man" id="goto-metrics">METRICS</div>
+    <div class="flat-action-button man" id="open-admin">ADMIN</div>
+</div>
