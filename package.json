@@ -1,0 +1,23 @@
+{
+  "name": "dispatchapp",
+  "version": "1.0.0",
+  "description": "Dispatcher App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "electron app.js",
+    "package-app": "electron-packager ./ WO-Emailer --overwrite --asar=true --platform=win32 --arch=ia32 --icon=./bin/assets/envelope-01.ico --prune=true --out=../../../../documentation/wo-emailer/releases --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"WO Email\""
+  },
+  "author": "cmv",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "electron": "^18.2.0",
+    "electron-packager": "^15.5.1",
+    "jquery": "^3.6.0",
+    "nodemailer": "^6.7.5",
+    "request": "^2.88.2",
+    "tree-kill": "^1.2.2",
+    "xlsx": "^0.18.5"
+  }
+}
